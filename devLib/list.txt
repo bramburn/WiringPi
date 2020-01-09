@@ -1,0 +1,33 @@
+ Volume in drive C is Windows
+ Volume Serial Number is A66A-8FEC
+
+ Directory of C:\Users\bramburn\Documents\GitHub\WiringPi\devLib
+
+09/01/2020  15:42    <DIR>          .
+09/01/2020  15:42    <DIR>          ..
+09/01/2020  14:27                91 CMakeLists.txt
+09/01/2020  13:33             6,106 ds1302.c
+09/01/2020  13:33             1,717 ds1302.h
+09/01/2020  13:33            58,135 font.h
+09/01/2020  13:33             4,283 gertboard.c
+09/01/2020  13:33             1,529 gertboard.h
+09/01/2020  13:33            12,044 lcd.c
+09/01/2020  13:33             2,147 lcd.h
+09/01/2020  13:33            15,461 lcd128x64.c
+09/01/2020  13:33             2,116 lcd128x64.h
+09/01/2020  15:42                 0 list.txt
+09/01/2020  13:33             4,315 Makefile
+09/01/2020  13:33             5,896 maxdetect.c
+09/01/2020  13:33             1,306 maxdetect.h
+09/01/2020  13:33             3,398 piFace.c
+09/01/2020  13:33             1,193 piFace.h
+09/01/2020  13:33             4,555 piFaceOld.c
+09/01/2020  13:33             3,099 piGlow.c
+09/01/2020  13:33             1,531 piGlow.h
+09/01/2020  13:33             3,028 piNes.c
+09/01/2020  13:33             1,491 piNes.h
+09/01/2020  13:33             9,794 scrollPhat.c
+09/01/2020  13:33             1,817 scrollPhat.h
+09/01/2020  13:33             7,797 scrollPhatFont.h
+              24 File(s)        152,849 bytes
+               2 Dir(s)  277,994,799,104 bytes free

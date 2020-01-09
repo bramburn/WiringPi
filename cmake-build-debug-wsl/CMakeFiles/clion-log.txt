@@ -1,0 +1,4 @@
+/usr/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /mnt/c/Users/bramburn/Documents/GitHub/WiringPi
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /mnt/c/Users/bramburn/Documents/GitHub/WiringPi/cmake-build-debug-wsl

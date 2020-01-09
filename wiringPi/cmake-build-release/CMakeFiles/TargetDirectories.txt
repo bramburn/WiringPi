@@ -1,0 +1,6 @@
+C:/Users/bramburn/Documents/GitHub/WiringPi/wiringPi/cmake-build-release/CMakeFiles/install/local.dir
+C:/Users/bramburn/Documents/GitHub/WiringPi/wiringPi/cmake-build-release/CMakeFiles/install.dir
+C:/Users/bramburn/Documents/GitHub/WiringPi/wiringPi/cmake-build-release/CMakeFiles/edit_cache.dir
+C:/Users/bramburn/Documents/GitHub/WiringPi/wiringPi/cmake-build-release/CMakeFiles/wiringPi.dir
+C:/Users/bramburn/Documents/GitHub/WiringPi/wiringPi/cmake-build-release/CMakeFiles/rebuild_cache.dir
+C:/Users/bramburn/Documents/GitHub/WiringPi/wiringPi/cmake-build-release/CMakeFiles/list_install_components.dir

@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="devLib"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\devLib\;CMake Files\wiringPi\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/mnt/c/Users/bramburn/Documents/GitHub/WiringPi/cmake-build-release-wsl/devLib"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j20 -f &quot;/mnt/c/Users/bramburn/Documents/GitHub/WiringPi/cmake-build-release-wsl/devLib/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j20 -f &quot;/mnt/c/Users/bramburn/Documents/GitHub/WiringPi/cmake-build-release-wsl/devLib/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j20 -f &quot;/mnt/c/Users/bramburn/Documents/GitHub/WiringPi/cmake-build-release-wsl/devLib/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j20 -f &quot;/mnt/c/Users/bramburn/Documents/GitHub/WiringPi/cmake-build-release-wsl/devLib/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="libwiringPiDev">
+				<Option output="/mnt/c/Users/bramburn/Documents/GitHub/WiringPi/cmake-build-release-wsl/devLib/{LIB_INSTALL_PATH/libwiringPiDev.so" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/mnt/c/Users/bramburn/Documents/GitHub/WiringPi/cmake-build-release-wsl/devLib"/>
+				<Option object_output="./"/>
+				<Option type="3"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/8"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/8"/>
+					<Add directory="/usr/include/c++/8/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/8/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/8/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j20 -f &quot;/mnt/c/Users/bramburn/Documents/GitHub/WiringPi/cmake-build-release-wsl/devLib/Makefile&quot;  VERBOSE=1 libwiringPiDev"/>
+					<CompileFile command="/usr/bin/make -j20 -f &quot;/mnt/c/Users/bramburn/Documents/GitHub/WiringPi/cmake-build-release-wsl/devLib/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j20 -f &quot;/mnt/c/Users/bramburn/Documents/GitHub/WiringPi/cmake-build-release-wsl/devLib/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j20 -f &quot;/mnt/c/Users/bramburn/Documents/GitHub/WiringPi/cmake-build-release-wsl/devLib/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="libwiringPiDev/fast">
+				<Option output="/mnt/c/Users/bramburn/Documents/GitHub/WiringPi/cmake-build-release-wsl/devLib/{LIB_INSTALL_PATH/libwiringPiDev.so" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/mnt/c/Users/bramburn/Documents/GitHub/WiringPi/cmake-build-release-wsl/devLib"/>
+				<Option object_output="./"/>
+				<Option type="3"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/8"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/8"/>
+					<Add directory="/usr/include/c++/8/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/8/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/8/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j20 -f &quot;/mnt/c/Users/bramburn/Documents/GitHub/WiringPi/cmake-build-release-wsl/devLib/Makefile&quot;  VERBOSE=1 libwiringPiDev/fast"/>
+					<CompileFile command="/usr/bin/make -j20 -f &quot;/mnt/c/Users/bramburn/Documents/GitHub/WiringPi/cmake-build-release-wsl/devLib/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j20 -f &quot;/mnt/c/Users/bramburn/Documents/GitHub/WiringPi/cmake-build-release-wsl/devLib/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j20 -f &quot;/mnt/c/Users/bramburn/Documents/GitHub/WiringPi/cmake-build-release-wsl/devLib/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/mnt/c/Users/bramburn/Documents/GitHub/WiringPi/devLib/ds1302.c">
+			<Option target="libwiringPiDev"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/bramburn/Documents/GitHub/WiringPi/devLib/ds1302.h">
+			<Option target="libwiringPiDev"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/bramburn/Documents/GitHub/WiringPi/devLib/gertboard.c">
+			<Option target="libwiringPiDev"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/bramburn/Documents/GitHub/WiringPi/devLib/gertboard.h">
+			<Option target="libwiringPiDev"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/bramburn/Documents/GitHub/WiringPi/devLib/lcd.c">
+			<Option target="libwiringPiDev"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/bramburn/Documents/GitHub/WiringPi/devLib/lcd.h">
+			<Option target="libwiringPiDev"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/bramburn/Documents/GitHub/WiringPi/devLib/lcd128x64.c">
+			<Option target="libwiringPiDev"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/bramburn/Documents/GitHub/WiringPi/devLib/lcd128x64.h">
+			<Option target="libwiringPiDev"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/bramburn/Documents/GitHub/WiringPi/devLib/maxdetect.c">
+			<Option target="libwiringPiDev"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/bramburn/Documents/GitHub/WiringPi/devLib/maxdetect.h">
+			<Option target="libwiringPiDev"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/bramburn/Documents/GitHub/WiringPi/devLib/piFace.c">
+			<Option target="libwiringPiDev"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/bramburn/Documents/GitHub/WiringPi/devLib/piFace.h">
+			<Option target="libwiringPiDev"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/bramburn/Documents/GitHub/WiringPi/devLib/piGlow.c">
+			<Option target="libwiringPiDev"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/bramburn/Documents/GitHub/WiringPi/devLib/piGlow.h">
+			<Option target="libwiringPiDev"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/bramburn/Documents/GitHub/WiringPi/devLib/piNes.c">
+			<Option target="libwiringPiDev"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/bramburn/Documents/GitHub/WiringPi/devLib/piNes.h">
+			<Option target="libwiringPiDev"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/bramburn/Documents/GitHub/WiringPi/devLib/scrollPhat.c">
+			<Option target="libwiringPiDev"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/bramburn/Documents/GitHub/WiringPi/devLib/scrollPhat.h">
+			<Option target="libwiringPiDev"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/bramburn/Documents/GitHub/WiringPi/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/bramburn/Documents/GitHub/WiringPi/devLib/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\devLib\"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/bramburn/Documents/GitHub/WiringPi/wiringPi/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\wiringPi\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
