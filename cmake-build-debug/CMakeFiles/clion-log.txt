@@ -1,0 +1,6 @@
+"C:\Program Files\JetBrains\CLion 2019.3.1\bin\cmake\win\bin\cmake.exe" -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - NMake Makefiles" D:\Clionproject\WiringPi
+CMake Error at CMakeLists.txt:4 (MESSAGE):
+  CANNOT BUILD ON WINDOWS
+
+
+-- Configuring incomplete, errors occurred!
