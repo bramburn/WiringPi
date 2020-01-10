@@ -1,0 +1,1 @@
+/usr/bin/cc -g   CMakeFiles/gpio.dir/gpio.c.o CMakeFiles/gpio.dir/readall.c.o  -o gpio -Wl,-rpath,/mnt/c/Users/bramburn/Documents/GitHub/WiringPi/cmake-build-debug-wsl/wiringPi:/home/bramburn/Documents/test/lib: ../wiringPi/libwiringPi.so /home/bramburn/Documents/test/lib/libwiringPiDev.so -lpthread -lm -lcrypt -lrt 

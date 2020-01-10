@@ -1,4 +1,4 @@
-# Install script for directory: /mnt/c/Users/bramburn/Documents/GitHub/WiringPi/devLib
+# Install script for directory: /mnt/c/Users/bramburn/Documents/GitHub/WiringPi/gpio
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -38,29 +38,30 @@ if(NOT DEFINED CMAKE_CROSSCOMPILING)
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  if(EXISTS "$ENV{DESTDIR}/home/bramburn/Documents/test/lib/libwiringPiDev.so" AND
-     NOT IS_SYMLINK "$ENV{DESTDIR}/home/bramburn/Documents/test/lib/libwiringPiDev.so")
+  if(EXISTS "$ENV{DESTDIR}/home/bramburn/Documents/test/bin/gpio" AND
+     NOT IS_SYMLINK "$ENV{DESTDIR}/home/bramburn/Documents/test/bin/gpio")
     file(RPATH_CHECK
-         FILE "$ENV{DESTDIR}/home/bramburn/Documents/test/lib/libwiringPiDev.so"
+         FILE "$ENV{DESTDIR}/home/bramburn/Documents/test/bin/gpio"
          RPATH "")
   endif()
   list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
-   "/home/bramburn/Documents/test/lib/libwiringPiDev.so")
+   "/home/bramburn/Documents/test/bin/gpio")
   if(CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(WARNING "ABSOLUTE path INSTALL DESTINATION : ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-file(INSTALL DESTINATION "/home/bramburn/Documents/test/lib" TYPE SHARED_LIBRARY FILES "/home/bramburn/Documents/test/lib/libwiringPiDev.so")
-  if(EXISTS "$ENV{DESTDIR}/home/bramburn/Documents/test/lib/libwiringPiDev.so" AND
-     NOT IS_SYMLINK "$ENV{DESTDIR}/home/bramburn/Documents/test/lib/libwiringPiDev.so")
+file(INSTALL DESTINATION "/home/bramburn/Documents/test/bin" TYPE EXECUTABLE FILES "/mnt/c/Users/bramburn/Documents/GitHub/WiringPi/cmake-build-debug-wsl/gpio/gpio")
+  if(EXISTS "$ENV{DESTDIR}/home/bramburn/Documents/test/bin/gpio" AND
+     NOT IS_SYMLINK "$ENV{DESTDIR}/home/bramburn/Documents/test/bin/gpio")
+    file(RPATH_CHANGE
+         FILE "$ENV{DESTDIR}/home/bramburn/Documents/test/bin/gpio"
+         OLD_RPATH "/mnt/c/Users/bramburn/Documents/GitHub/WiringPi/cmake-build-debug-wsl/wiringPi:/home/bramburn/Documents/test/lib:"
+         NEW_RPATH "")
     if(CMAKE_INSTALL_DO_STRIP)
-      execute_process(COMMAND "/usr/bin/strip" "$ENV{DESTDIR}/home/bramburn/Documents/test/lib/libwiringPiDev.so")
+      execute_process(COMMAND "/usr/bin/strip" "$ENV{DESTDIR}/home/bramburn/Documents/test/bin/gpio")
     endif()
   endif()
-endif()
-
-if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
 endif()
 
