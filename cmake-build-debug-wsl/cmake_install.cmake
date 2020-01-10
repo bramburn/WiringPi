@@ -41,6 +41,7 @@ if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
   include("/mnt/c/Users/bramburn/Documents/GitHub/WiringPi/cmake-build-debug-wsl/devLib/cmake_install.cmake")
   include("/mnt/c/Users/bramburn/Documents/GitHub/WiringPi/cmake-build-debug-wsl/wiringPi/cmake_install.cmake")
+  include("/mnt/c/Users/bramburn/Documents/GitHub/WiringPi/cmake-build-debug-wsl/gpio/cmake_install.cmake")
 
 endif()
 

@@ -1,4 +1,3 @@
-/home/bramburn/Documents/test/lib/libwiringPiDev.so
 /home/bramburn/Documents/test/include/ads1115.h
 /home/bramburn/Documents/test/include/bmp180.h
 /home/bramburn/Documents/test/include/drcNet.h
@@ -35,3 +34,4 @@
 /home/bramburn/Documents/test/include/wiringShift.h
 /home/bramburn/Documents/test/include/wpiExtensions.h
 /home/bramburn/Documents/test/lib/libwiringPi.so
+/home/bramburn/Documents/test/bin/gpio

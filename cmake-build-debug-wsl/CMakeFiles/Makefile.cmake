@@ -12,6 +12,7 @@ set(CMAKE_MAKEFILE_DEPENDS
   "CMakeFiles/3.13.4/CMakeCXXCompiler.cmake"
   "CMakeFiles/3.13.4/CMakeSystem.cmake"
   "../devLib/CMakeLists.txt"
+  "../gpio/CMakeLists.txt"
   "../wiringPi/CMakeLists.txt"
   "/usr/share/cmake-3.13/Modules/CMakeCInformation.cmake"
   "/usr/share/cmake-3.13/Modules/CMakeCXXInformation.cmake"
@@ -46,10 +47,12 @@ set(CMAKE_MAKEFILE_PRODUCTS
   "CMakeFiles/CMakeDirectoryInformation.cmake"
   "devLib/CMakeFiles/CMakeDirectoryInformation.cmake"
   "wiringPi/CMakeFiles/CMakeDirectoryInformation.cmake"
+  "gpio/CMakeFiles/CMakeDirectoryInformation.cmake"
   )
 
 # Dependency information for all targets:
 set(CMAKE_DEPEND_INFO_FILES
   "devLib/CMakeFiles/libwiringPiDev.dir/DependInfo.cmake"
   "wiringPi/CMakeFiles/libwiringPi.dir/DependInfo.cmake"
+  "gpio/CMakeFiles/gpio.dir/DependInfo.cmake"
   )

@@ -5,7 +5,7 @@
 		<Option title="WiringPiMain"/>
 		<Option makefile_is_custom="1"/>
 		<Option compiler="gcc"/>
-		<Option virtualFolders="CMake Files\;CMake Files\devLib\;CMake Files\wiringPi\;"/>
+		<Option virtualFolders="CMake Files\;CMake Files\devLib\;CMake Files\wiringPi\;CMake Files\gpio\;"/>
 		<Build>
 			<Target title="all">
 				<Option working_dir="/mnt/c/Users/bramburn/Documents/GitHub/WiringPi/cmake-build-debug-wsl"/>
@@ -78,7 +78,7 @@
 				</MakeCommands>
 			</Target>
 			<Target title="libwiringPiDev">
-				<Option output="/mnt/c/Users/bramburn/Documents/GitHub/WiringPi/cmake-build-debug-wsl/devLib/{LIB_INSTALL_PATH/libwiringPiDev.so" prefix_auto="0" extension_auto="0"/>
+				<Option output="/home/bramburn/Documents/test/lib/libwiringPiDev.so" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="/mnt/c/Users/bramburn/Documents/GitHub/WiringPi/cmake-build-debug-wsl/devLib"/>
 				<Option object_output="./"/>
 				<Option type="3"/>
@@ -101,7 +101,7 @@
 				</MakeCommands>
 			</Target>
 			<Target title="libwiringPiDev/fast">
-				<Option output="/mnt/c/Users/bramburn/Documents/GitHub/WiringPi/cmake-build-debug-wsl/devLib/{LIB_INSTALL_PATH/libwiringPiDev.so" prefix_auto="0" extension_auto="0"/>
+				<Option output="/home/bramburn/Documents/test/lib/libwiringPiDev.so" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="/mnt/c/Users/bramburn/Documents/GitHub/WiringPi/cmake-build-debug-wsl/devLib"/>
 				<Option object_output="./"/>
 				<Option type="3"/>
@@ -124,7 +124,7 @@
 				</MakeCommands>
 			</Target>
 			<Target title="libwiringPi">
-				<Option output="/mnt/c/Users/bramburn/Documents/GitHub/WiringPi/cmake-build-debug-wsl/wiringPi/{LIB_INSTALL_PATH/libwiringPi.so" prefix_auto="0" extension_auto="0"/>
+				<Option output="/mnt/c/Users/bramburn/Documents/GitHub/WiringPi/cmake-build-debug-wsl/wiringPi/libwiringPi.so" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="/mnt/c/Users/bramburn/Documents/GitHub/WiringPi/cmake-build-debug-wsl/wiringPi"/>
 				<Option object_output="./"/>
 				<Option type="3"/>
@@ -147,7 +147,7 @@
 				</MakeCommands>
 			</Target>
 			<Target title="libwiringPi/fast">
-				<Option output="/mnt/c/Users/bramburn/Documents/GitHub/WiringPi/cmake-build-debug-wsl/wiringPi/{LIB_INSTALL_PATH/libwiringPi.so" prefix_auto="0" extension_auto="0"/>
+				<Option output="/mnt/c/Users/bramburn/Documents/GitHub/WiringPi/cmake-build-debug-wsl/wiringPi/libwiringPi.so" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="/mnt/c/Users/bramburn/Documents/GitHub/WiringPi/cmake-build-debug-wsl/wiringPi"/>
 				<Option object_output="./"/>
 				<Option type="3"/>
@@ -167,6 +167,56 @@
 					<CompileFile command="/usr/bin/make -j20 -f &quot;/mnt/c/Users/bramburn/Documents/GitHub/WiringPi/cmake-build-debug-wsl/wiringPi/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
 					<Clean command="/usr/bin/make -j20 -f &quot;/mnt/c/Users/bramburn/Documents/GitHub/WiringPi/cmake-build-debug-wsl/wiringPi/Makefile&quot;  VERBOSE=1 clean"/>
 					<DistClean command="/usr/bin/make -j20 -f &quot;/mnt/c/Users/bramburn/Documents/GitHub/WiringPi/cmake-build-debug-wsl/wiringPi/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="gpio">
+				<Option output="/mnt/c/Users/bramburn/Documents/GitHub/WiringPi/cmake-build-debug-wsl/gpio/gpio" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/mnt/c/Users/bramburn/Documents/GitHub/WiringPi/cmake-build-debug-wsl/gpio"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/mnt/c/Users/bramburn/Documents/GitHub/WiringPi/devLib"/>
+					<Add directory="/mnt/c/Users/bramburn/Documents/GitHub/WiringPi/wiringPi"/>
+					<Add directory="/usr/include/c++/8"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/8"/>
+					<Add directory="/usr/include/c++/8/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/8/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/8/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j20 -f &quot;/mnt/c/Users/bramburn/Documents/GitHub/WiringPi/cmake-build-debug-wsl/gpio/Makefile&quot;  VERBOSE=1 gpio"/>
+					<CompileFile command="/usr/bin/make -j20 -f &quot;/mnt/c/Users/bramburn/Documents/GitHub/WiringPi/cmake-build-debug-wsl/gpio/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j20 -f &quot;/mnt/c/Users/bramburn/Documents/GitHub/WiringPi/cmake-build-debug-wsl/gpio/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j20 -f &quot;/mnt/c/Users/bramburn/Documents/GitHub/WiringPi/cmake-build-debug-wsl/gpio/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="gpio/fast">
+				<Option output="/mnt/c/Users/bramburn/Documents/GitHub/WiringPi/cmake-build-debug-wsl/gpio/gpio" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/mnt/c/Users/bramburn/Documents/GitHub/WiringPi/cmake-build-debug-wsl/gpio"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/mnt/c/Users/bramburn/Documents/GitHub/WiringPi/devLib"/>
+					<Add directory="/mnt/c/Users/bramburn/Documents/GitHub/WiringPi/wiringPi"/>
+					<Add directory="/usr/include/c++/8"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/8"/>
+					<Add directory="/usr/include/c++/8/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/8/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/8/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j20 -f &quot;/mnt/c/Users/bramburn/Documents/GitHub/WiringPi/cmake-build-debug-wsl/gpio/Makefile&quot;  VERBOSE=1 gpio/fast"/>
+					<CompileFile command="/usr/bin/make -j20 -f &quot;/mnt/c/Users/bramburn/Documents/GitHub/WiringPi/cmake-build-debug-wsl/gpio/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j20 -f &quot;/mnt/c/Users/bramburn/Documents/GitHub/WiringPi/cmake-build-debug-wsl/gpio/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j20 -f &quot;/mnt/c/Users/bramburn/Documents/GitHub/WiringPi/cmake-build-debug-wsl/gpio/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 		</Build>
@@ -223,6 +273,12 @@
 		</Unit>
 		<Unit filename="/mnt/c/Users/bramburn/Documents/GitHub/WiringPi/devLib/scrollPhat.h">
 			<Option target="libwiringPiDev"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/bramburn/Documents/GitHub/WiringPi/gpio/gpio.c">
+			<Option target="gpio"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/bramburn/Documents/GitHub/WiringPi/gpio/readall.c">
+			<Option target="gpio"/>
 		</Unit>
 		<Unit filename="/mnt/c/Users/bramburn/Documents/GitHub/WiringPi/wiringPi/ads1115.c">
 			<Option target="libwiringPi"/>
@@ -430,6 +486,9 @@
 		</Unit>
 		<Unit filename="/mnt/c/Users/bramburn/Documents/GitHub/WiringPi/wiringPi/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\wiringPi\"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/bramburn/Documents/GitHub/WiringPi/gpio/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\gpio\"/>
 		</Unit>
 	</Project>
 </CodeBlocks_project_file>

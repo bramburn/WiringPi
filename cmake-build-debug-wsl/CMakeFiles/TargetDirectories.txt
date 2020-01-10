@@ -18,3 +18,10 @@
 /mnt/c/Users/bramburn/Documents/GitHub/WiringPi/cmake-build-debug-wsl/wiringPi/CMakeFiles/list_install_components.dir
 /mnt/c/Users/bramburn/Documents/GitHub/WiringPi/cmake-build-debug-wsl/wiringPi/CMakeFiles/install/local.dir
 /mnt/c/Users/bramburn/Documents/GitHub/WiringPi/cmake-build-debug-wsl/wiringPi/CMakeFiles/install.dir
+/mnt/c/Users/bramburn/Documents/GitHub/WiringPi/cmake-build-debug-wsl/gpio/CMakeFiles/install/strip.dir
+/mnt/c/Users/bramburn/Documents/GitHub/WiringPi/cmake-build-debug-wsl/gpio/CMakeFiles/edit_cache.dir
+/mnt/c/Users/bramburn/Documents/GitHub/WiringPi/cmake-build-debug-wsl/gpio/CMakeFiles/gpio.dir
+/mnt/c/Users/bramburn/Documents/GitHub/WiringPi/cmake-build-debug-wsl/gpio/CMakeFiles/install.dir
+/mnt/c/Users/bramburn/Documents/GitHub/WiringPi/cmake-build-debug-wsl/gpio/CMakeFiles/rebuild_cache.dir
+/mnt/c/Users/bramburn/Documents/GitHub/WiringPi/cmake-build-debug-wsl/gpio/CMakeFiles/list_install_components.dir
+/mnt/c/Users/bramburn/Documents/GitHub/WiringPi/cmake-build-debug-wsl/gpio/CMakeFiles/install/local.dir

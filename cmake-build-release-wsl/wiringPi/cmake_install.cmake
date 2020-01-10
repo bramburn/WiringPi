@@ -100,7 +100,7 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-file(INSTALL DESTINATION "/home/bramburn/Documents/test/lib" TYPE SHARED_LIBRARY FILES "/mnt/c/Users/bramburn/Documents/GitHub/WiringPi/cmake-build-release-wsl/wiringPi/{LIB_INSTALL_PATH/libwiringPi.so")
+file(INSTALL DESTINATION "/home/bramburn/Documents/test/lib" TYPE SHARED_LIBRARY FILES "/mnt/c/Users/bramburn/Documents/GitHub/WiringPi/cmake-build-release-wsl/wiringPi/libwiringPi.so")
   if(EXISTS "$ENV{DESTDIR}/home/bramburn/Documents/test/lib/libwiringPi.so" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}/home/bramburn/Documents/test/lib/libwiringPi.so")
     if(CMAKE_INSTALL_DO_STRIP)

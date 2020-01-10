@@ -539,47 +539,47 @@ libwiringPi_OBJECTS = \
 # External object files for target libwiringPi
 libwiringPi_EXTERNAL_OBJECTS =
 
-wiringPi/{LIB_INSTALL_PATH/libwiringPi.so: wiringPi/CMakeFiles/libwiringPi.dir/ads1115.c.o
-wiringPi/{LIB_INSTALL_PATH/libwiringPi.so: wiringPi/CMakeFiles/libwiringPi.dir/bmp180.c.o
-wiringPi/{LIB_INSTALL_PATH/libwiringPi.so: wiringPi/CMakeFiles/libwiringPi.dir/drcNet.c.o
-wiringPi/{LIB_INSTALL_PATH/libwiringPi.so: wiringPi/CMakeFiles/libwiringPi.dir/drcSerial.c.o
-wiringPi/{LIB_INSTALL_PATH/libwiringPi.so: wiringPi/CMakeFiles/libwiringPi.dir/ds18b20.c.o
-wiringPi/{LIB_INSTALL_PATH/libwiringPi.so: wiringPi/CMakeFiles/libwiringPi.dir/htu21d.c.o
-wiringPi/{LIB_INSTALL_PATH/libwiringPi.so: wiringPi/CMakeFiles/libwiringPi.dir/max31855.c.o
-wiringPi/{LIB_INSTALL_PATH/libwiringPi.so: wiringPi/CMakeFiles/libwiringPi.dir/max5322.c.o
-wiringPi/{LIB_INSTALL_PATH/libwiringPi.so: wiringPi/CMakeFiles/libwiringPi.dir/mcp23008.c.o
-wiringPi/{LIB_INSTALL_PATH/libwiringPi.so: wiringPi/CMakeFiles/libwiringPi.dir/mcp23016.c.o
-wiringPi/{LIB_INSTALL_PATH/libwiringPi.so: wiringPi/CMakeFiles/libwiringPi.dir/mcp23017.c.o
-wiringPi/{LIB_INSTALL_PATH/libwiringPi.so: wiringPi/CMakeFiles/libwiringPi.dir/mcp23s08.c.o
-wiringPi/{LIB_INSTALL_PATH/libwiringPi.so: wiringPi/CMakeFiles/libwiringPi.dir/mcp23s17.c.o
-wiringPi/{LIB_INSTALL_PATH/libwiringPi.so: wiringPi/CMakeFiles/libwiringPi.dir/mcp3002.c.o
-wiringPi/{LIB_INSTALL_PATH/libwiringPi.so: wiringPi/CMakeFiles/libwiringPi.dir/mcp3004.c.o
-wiringPi/{LIB_INSTALL_PATH/libwiringPi.so: wiringPi/CMakeFiles/libwiringPi.dir/mcp3422.c.o
-wiringPi/{LIB_INSTALL_PATH/libwiringPi.so: wiringPi/CMakeFiles/libwiringPi.dir/mcp4802.c.o
-wiringPi/{LIB_INSTALL_PATH/libwiringPi.so: wiringPi/CMakeFiles/libwiringPi.dir/pcf8574.c.o
-wiringPi/{LIB_INSTALL_PATH/libwiringPi.so: wiringPi/CMakeFiles/libwiringPi.dir/pcf8591.c.o
-wiringPi/{LIB_INSTALL_PATH/libwiringPi.so: wiringPi/CMakeFiles/libwiringPi.dir/piHiPri.c.o
-wiringPi/{LIB_INSTALL_PATH/libwiringPi.so: wiringPi/CMakeFiles/libwiringPi.dir/piThread.c.o
-wiringPi/{LIB_INSTALL_PATH/libwiringPi.so: wiringPi/CMakeFiles/libwiringPi.dir/pseudoPins.c.o
-wiringPi/{LIB_INSTALL_PATH/libwiringPi.so: wiringPi/CMakeFiles/libwiringPi.dir/rht03.c.o
-wiringPi/{LIB_INSTALL_PATH/libwiringPi.so: wiringPi/CMakeFiles/libwiringPi.dir/sn3218.c.o
-wiringPi/{LIB_INSTALL_PATH/libwiringPi.so: wiringPi/CMakeFiles/libwiringPi.dir/softPwm.c.o
-wiringPi/{LIB_INSTALL_PATH/libwiringPi.so: wiringPi/CMakeFiles/libwiringPi.dir/softServo.c.o
-wiringPi/{LIB_INSTALL_PATH/libwiringPi.so: wiringPi/CMakeFiles/libwiringPi.dir/softTone.c.o
-wiringPi/{LIB_INSTALL_PATH/libwiringPi.so: wiringPi/CMakeFiles/libwiringPi.dir/sr595.c.o
-wiringPi/{LIB_INSTALL_PATH/libwiringPi.so: wiringPi/CMakeFiles/libwiringPi.dir/wiringPi.c.o
-wiringPi/{LIB_INSTALL_PATH/libwiringPi.so: wiringPi/CMakeFiles/libwiringPi.dir/wiringPiI2C.c.o
-wiringPi/{LIB_INSTALL_PATH/libwiringPi.so: wiringPi/CMakeFiles/libwiringPi.dir/wiringPiSPI.c.o
-wiringPi/{LIB_INSTALL_PATH/libwiringPi.so: wiringPi/CMakeFiles/libwiringPi.dir/wiringSerial.c.o
-wiringPi/{LIB_INSTALL_PATH/libwiringPi.so: wiringPi/CMakeFiles/libwiringPi.dir/wiringShift.c.o
-wiringPi/{LIB_INSTALL_PATH/libwiringPi.so: wiringPi/CMakeFiles/libwiringPi.dir/wpiExtensions.c.o
-wiringPi/{LIB_INSTALL_PATH/libwiringPi.so: wiringPi/CMakeFiles/libwiringPi.dir/build.make
-wiringPi/{LIB_INSTALL_PATH/libwiringPi.so: wiringPi/CMakeFiles/libwiringPi.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/mnt/c/Users/bramburn/Documents/GitHub/WiringPi/cmake-build-debug-wsl/CMakeFiles --progress-num=$(CMAKE_PROGRESS_35) "Linking C shared library {LIB_INSTALL_PATH/libwiringPi.so"
+wiringPi/libwiringPi.so: wiringPi/CMakeFiles/libwiringPi.dir/ads1115.c.o
+wiringPi/libwiringPi.so: wiringPi/CMakeFiles/libwiringPi.dir/bmp180.c.o
+wiringPi/libwiringPi.so: wiringPi/CMakeFiles/libwiringPi.dir/drcNet.c.o
+wiringPi/libwiringPi.so: wiringPi/CMakeFiles/libwiringPi.dir/drcSerial.c.o
+wiringPi/libwiringPi.so: wiringPi/CMakeFiles/libwiringPi.dir/ds18b20.c.o
+wiringPi/libwiringPi.so: wiringPi/CMakeFiles/libwiringPi.dir/htu21d.c.o
+wiringPi/libwiringPi.so: wiringPi/CMakeFiles/libwiringPi.dir/max31855.c.o
+wiringPi/libwiringPi.so: wiringPi/CMakeFiles/libwiringPi.dir/max5322.c.o
+wiringPi/libwiringPi.so: wiringPi/CMakeFiles/libwiringPi.dir/mcp23008.c.o
+wiringPi/libwiringPi.so: wiringPi/CMakeFiles/libwiringPi.dir/mcp23016.c.o
+wiringPi/libwiringPi.so: wiringPi/CMakeFiles/libwiringPi.dir/mcp23017.c.o
+wiringPi/libwiringPi.so: wiringPi/CMakeFiles/libwiringPi.dir/mcp23s08.c.o
+wiringPi/libwiringPi.so: wiringPi/CMakeFiles/libwiringPi.dir/mcp23s17.c.o
+wiringPi/libwiringPi.so: wiringPi/CMakeFiles/libwiringPi.dir/mcp3002.c.o
+wiringPi/libwiringPi.so: wiringPi/CMakeFiles/libwiringPi.dir/mcp3004.c.o
+wiringPi/libwiringPi.so: wiringPi/CMakeFiles/libwiringPi.dir/mcp3422.c.o
+wiringPi/libwiringPi.so: wiringPi/CMakeFiles/libwiringPi.dir/mcp4802.c.o
+wiringPi/libwiringPi.so: wiringPi/CMakeFiles/libwiringPi.dir/pcf8574.c.o
+wiringPi/libwiringPi.so: wiringPi/CMakeFiles/libwiringPi.dir/pcf8591.c.o
+wiringPi/libwiringPi.so: wiringPi/CMakeFiles/libwiringPi.dir/piHiPri.c.o
+wiringPi/libwiringPi.so: wiringPi/CMakeFiles/libwiringPi.dir/piThread.c.o
+wiringPi/libwiringPi.so: wiringPi/CMakeFiles/libwiringPi.dir/pseudoPins.c.o
+wiringPi/libwiringPi.so: wiringPi/CMakeFiles/libwiringPi.dir/rht03.c.o
+wiringPi/libwiringPi.so: wiringPi/CMakeFiles/libwiringPi.dir/sn3218.c.o
+wiringPi/libwiringPi.so: wiringPi/CMakeFiles/libwiringPi.dir/softPwm.c.o
+wiringPi/libwiringPi.so: wiringPi/CMakeFiles/libwiringPi.dir/softServo.c.o
+wiringPi/libwiringPi.so: wiringPi/CMakeFiles/libwiringPi.dir/softTone.c.o
+wiringPi/libwiringPi.so: wiringPi/CMakeFiles/libwiringPi.dir/sr595.c.o
+wiringPi/libwiringPi.so: wiringPi/CMakeFiles/libwiringPi.dir/wiringPi.c.o
+wiringPi/libwiringPi.so: wiringPi/CMakeFiles/libwiringPi.dir/wiringPiI2C.c.o
+wiringPi/libwiringPi.so: wiringPi/CMakeFiles/libwiringPi.dir/wiringPiSPI.c.o
+wiringPi/libwiringPi.so: wiringPi/CMakeFiles/libwiringPi.dir/wiringSerial.c.o
+wiringPi/libwiringPi.so: wiringPi/CMakeFiles/libwiringPi.dir/wiringShift.c.o
+wiringPi/libwiringPi.so: wiringPi/CMakeFiles/libwiringPi.dir/wpiExtensions.c.o
+wiringPi/libwiringPi.so: wiringPi/CMakeFiles/libwiringPi.dir/build.make
+wiringPi/libwiringPi.so: wiringPi/CMakeFiles/libwiringPi.dir/link.txt
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/mnt/c/Users/bramburn/Documents/GitHub/WiringPi/cmake-build-debug-wsl/CMakeFiles --progress-num=$(CMAKE_PROGRESS_35) "Linking C shared library libwiringPi.so"
 	cd /mnt/c/Users/bramburn/Documents/GitHub/WiringPi/cmake-build-debug-wsl/wiringPi && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/libwiringPi.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
-wiringPi/CMakeFiles/libwiringPi.dir/build: wiringPi/{LIB_INSTALL_PATH/libwiringPi.so
+wiringPi/CMakeFiles/libwiringPi.dir/build: wiringPi/libwiringPi.so
 
 .PHONY : wiringPi/CMakeFiles/libwiringPi.dir/build
 

@@ -8,8 +8,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/libwiringPiDev.dir/piGlow.c.o"
   "CMakeFiles/libwiringPiDev.dir/piNes.c.o"
   "CMakeFiles/libwiringPiDev.dir/scrollPhat.c.o"
-  "{LIB_INSTALL_PATH/libwiringPiDev.pdb"
-  "{LIB_INSTALL_PATH/libwiringPiDev.so"
+  "/home/bramburn/Documents/test/lib/libwiringPiDev.pdb"
+  "/home/bramburn/Documents/test/lib/libwiringPiDev.so"
 )
 
 # Per-language clean rules from dependency scanning.

@@ -89,7 +89,7 @@ devLib/preinstall:
 devLib/CMakeFiles/libwiringPiDev.dir/all:
 	$(MAKE) -f devLib/CMakeFiles/libwiringPiDev.dir/build.make devLib/CMakeFiles/libwiringPiDev.dir/depend
 	$(MAKE) -f devLib/CMakeFiles/libwiringPiDev.dir/build.make devLib/CMakeFiles/libwiringPiDev.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/mnt/c/Users/bramburn/Documents/GitHub/WiringPi/cmake-build-debug-wsl/CMakeFiles --progress-num=36,37,38,39,40,41,42,43,44,45 "Built target libwiringPiDev"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/mnt/c/Users/bramburn/Documents/GitHub/WiringPi/cmake-build-debug-wsl/CMakeFiles --progress-num=39,40,41,42,43,44,45,46,47,48 "Built target libwiringPiDev"
 .PHONY : devLib/CMakeFiles/libwiringPiDev.dir/all
 
 # Include target in all.
@@ -144,7 +144,7 @@ wiringPi/preinstall:
 wiringPi/CMakeFiles/libwiringPi.dir/all:
 	$(MAKE) -f wiringPi/CMakeFiles/libwiringPi.dir/build.make wiringPi/CMakeFiles/libwiringPi.dir/depend
 	$(MAKE) -f wiringPi/CMakeFiles/libwiringPi.dir/build.make wiringPi/CMakeFiles/libwiringPi.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/mnt/c/Users/bramburn/Documents/GitHub/WiringPi/cmake-build-debug-wsl/CMakeFiles --progress-num=1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35 "Built target libwiringPi"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/mnt/c/Users/bramburn/Documents/GitHub/WiringPi/cmake-build-debug-wsl/CMakeFiles --progress-num=4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38 "Built target libwiringPi"
 .PHONY : wiringPi/CMakeFiles/libwiringPi.dir/all
 
 # Include target in all.
@@ -171,6 +171,62 @@ wiringPi/CMakeFiles/libwiringPi.dir/clean:
 
 # clean rule for target.
 clean: wiringPi/CMakeFiles/libwiringPi.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
+# Directory level rules for directory gpio
+
+# Convenience name for "all" pass in the directory.
+gpio/all: gpio/CMakeFiles/gpio.dir/all
+
+.PHONY : gpio/all
+
+# Convenience name for "clean" pass in the directory.
+gpio/clean: gpio/CMakeFiles/gpio.dir/clean
+
+.PHONY : gpio/clean
+
+# Convenience name for "preinstall" pass in the directory.
+gpio/preinstall:
+
+.PHONY : gpio/preinstall
+
+#=============================================================================
+# Target rules for target gpio/CMakeFiles/gpio.dir
+
+# All Build rule for target.
+gpio/CMakeFiles/gpio.dir/all: devLib/CMakeFiles/libwiringPiDev.dir/all
+gpio/CMakeFiles/gpio.dir/all: wiringPi/CMakeFiles/libwiringPi.dir/all
+	$(MAKE) -f gpio/CMakeFiles/gpio.dir/build.make gpio/CMakeFiles/gpio.dir/depend
+	$(MAKE) -f gpio/CMakeFiles/gpio.dir/build.make gpio/CMakeFiles/gpio.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/mnt/c/Users/bramburn/Documents/GitHub/WiringPi/cmake-build-debug-wsl/CMakeFiles --progress-num=1,2,3 "Built target gpio"
+.PHONY : gpio/CMakeFiles/gpio.dir/all
+
+# Include target in all.
+all: gpio/CMakeFiles/gpio.dir/all
+
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+gpio/CMakeFiles/gpio.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /mnt/c/Users/bramburn/Documents/GitHub/WiringPi/cmake-build-debug-wsl/CMakeFiles 48
+	$(MAKE) -f CMakeFiles/Makefile2 gpio/CMakeFiles/gpio.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /mnt/c/Users/bramburn/Documents/GitHub/WiringPi/cmake-build-debug-wsl/CMakeFiles 0
+.PHONY : gpio/CMakeFiles/gpio.dir/rule
+
+# Convenience name for target.
+gpio: gpio/CMakeFiles/gpio.dir/rule
+
+.PHONY : gpio
+
+# clean rule for target.
+gpio/CMakeFiles/gpio.dir/clean:
+	$(MAKE) -f gpio/CMakeFiles/gpio.dir/build.make gpio/CMakeFiles/gpio.dir/clean
+.PHONY : gpio/CMakeFiles/gpio.dir/clean
+
+# clean rule for target.
+clean: gpio/CMakeFiles/gpio.dir/clean
 
 .PHONY : clean
 

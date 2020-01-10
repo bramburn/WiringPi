@@ -33,8 +33,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/libwiringPi.dir/wiringSerial.c.o"
   "CMakeFiles/libwiringPi.dir/wiringShift.c.o"
   "CMakeFiles/libwiringPi.dir/wpiExtensions.c.o"
-  "{LIB_INSTALL_PATH/libwiringPi.pdb"
-  "{LIB_INSTALL_PATH/libwiringPi.so"
+  "libwiringPi.pdb"
+  "libwiringPi.so"
 )
 
 # Per-language clean rules from dependency scanning.

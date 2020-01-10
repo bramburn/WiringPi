@@ -5,7 +5,7 @@
 		<Option title="devLib"/>
 		<Option makefile_is_custom="1"/>
 		<Option compiler="gcc"/>
-		<Option virtualFolders="CMake Files\;CMake Files\devLib\;CMake Files\wiringPi\;"/>
+		<Option virtualFolders="CMake Files\;CMake Files\devLib\;CMake Files\wiringPi\;CMake Files\gpio\;"/>
 		<Build>
 			<Target title="all">
 				<Option working_dir="/mnt/c/Users/bramburn/Documents/GitHub/WiringPi/cmake-build-debug-wsl/devLib"/>
@@ -18,7 +18,7 @@
 				</MakeCommands>
 			</Target>
 			<Target title="libwiringPiDev">
-				<Option output="/mnt/c/Users/bramburn/Documents/GitHub/WiringPi/cmake-build-debug-wsl/devLib/{LIB_INSTALL_PATH/libwiringPiDev.so" prefix_auto="0" extension_auto="0"/>
+				<Option output="/home/bramburn/Documents/test/lib/libwiringPiDev.so" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="/mnt/c/Users/bramburn/Documents/GitHub/WiringPi/cmake-build-debug-wsl/devLib"/>
 				<Option object_output="./"/>
 				<Option type="3"/>
@@ -41,7 +41,7 @@
 				</MakeCommands>
 			</Target>
 			<Target title="libwiringPiDev/fast">
-				<Option output="/mnt/c/Users/bramburn/Documents/GitHub/WiringPi/cmake-build-debug-wsl/devLib/{LIB_INSTALL_PATH/libwiringPiDev.so" prefix_auto="0" extension_auto="0"/>
+				<Option output="/home/bramburn/Documents/test/lib/libwiringPiDev.so" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="/mnt/c/Users/bramburn/Documents/GitHub/WiringPi/cmake-build-debug-wsl/devLib"/>
 				<Option object_output="./"/>
 				<Option type="3"/>
@@ -126,6 +126,9 @@
 		</Unit>
 		<Unit filename="/mnt/c/Users/bramburn/Documents/GitHub/WiringPi/wiringPi/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\wiringPi\"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/bramburn/Documents/GitHub/WiringPi/gpio/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\gpio\"/>
 		</Unit>
 	</Project>
 </CodeBlocks_project_file>

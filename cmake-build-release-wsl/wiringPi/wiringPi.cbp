@@ -18,7 +18,7 @@
 				</MakeCommands>
 			</Target>
 			<Target title="libwiringPi">
-				<Option output="/mnt/c/Users/bramburn/Documents/GitHub/WiringPi/cmake-build-release-wsl/wiringPi/{LIB_INSTALL_PATH/libwiringPi.so" prefix_auto="0" extension_auto="0"/>
+				<Option output="/mnt/c/Users/bramburn/Documents/GitHub/WiringPi/cmake-build-release-wsl/wiringPi/libwiringPi.so" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="/mnt/c/Users/bramburn/Documents/GitHub/WiringPi/cmake-build-release-wsl/wiringPi"/>
 				<Option object_output="./"/>
 				<Option type="3"/>
@@ -41,7 +41,7 @@
 				</MakeCommands>
 			</Target>
 			<Target title="libwiringPi/fast">
-				<Option output="/mnt/c/Users/bramburn/Documents/GitHub/WiringPi/cmake-build-release-wsl/wiringPi/{LIB_INSTALL_PATH/libwiringPi.so" prefix_auto="0" extension_auto="0"/>
+				<Option output="/mnt/c/Users/bramburn/Documents/GitHub/WiringPi/cmake-build-release-wsl/wiringPi/libwiringPi.so" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="/mnt/c/Users/bramburn/Documents/GitHub/WiringPi/cmake-build-release-wsl/wiringPi"/>
 				<Option object_output="./"/>
 				<Option type="3"/>

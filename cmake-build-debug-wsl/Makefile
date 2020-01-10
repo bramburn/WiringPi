@@ -182,6 +182,19 @@ libwiringPi/fast:
 	$(MAKE) -f wiringPi/CMakeFiles/libwiringPi.dir/build.make wiringPi/CMakeFiles/libwiringPi.dir/build
 .PHONY : libwiringPi/fast
 
+#=============================================================================
+# Target rules for targets named gpio
+
+# Build rule for target.
+gpio: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 gpio
+.PHONY : gpio
+
+# fast build rule for target.
+gpio/fast:
+	$(MAKE) -f gpio/CMakeFiles/gpio.dir/build.make gpio/CMakeFiles/gpio.dir/build
+.PHONY : gpio/fast
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -196,6 +209,7 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... libwiringPiDev"
 	@echo "... libwiringPi"
+	@echo "... gpio"
 .PHONY : help
 
 
