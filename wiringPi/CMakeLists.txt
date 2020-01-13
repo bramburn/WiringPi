@@ -78,6 +78,7 @@ SET(HEADER_FILES
 
 
 add_library(libwiringPi SHARED ${SRC_FILES})
+target_link_libraries(libwiringPi -lm -lpthread -lrt -lcrypt)
 #set(LIBRARY_OUTPUT_PATH ${LIB_INSTALL_PATH})
 set_target_properties(libwiringPi PROPERTIES OUTPUT_NAME "wiringPi")
 
