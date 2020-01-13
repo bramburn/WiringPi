@@ -1,7 +1,7 @@
 cmake_minimum_required(VERSION 3.13)
 project(wiringPi)
-set(LIB_INSTALL_PATH "${CURRENT_INSTALLED_DIR}/lib")
-set(LIB_INSTALL_HEADERS_PATH "${CURRENT_INSTALLED_DIR}/include")
+set(LIB_INSTALL_PATH "lib")
+set(LIB_INSTALL_HEADERS_PATH "include")
 set(SRC_FILES ads1115.c
         bmp180.c
         drcNet.c
