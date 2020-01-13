@@ -31,7 +31,7 @@ SET(HEADER_FILEs
         )
 
 
-add_library(libwiringPiDev SHARED ${SRC_FILES})
+add_library(libwiringPiDev PUBLIC ${SRC_FILES})
 
 set(LIBRARY_OUTPUT_PATH ${LIB_INSTALL_PATH})
 set_target_properties(libwiringPiDev PROPERTIES OUTPUT_NAME "wiringPiDev")
