@@ -1,7 +1,7 @@
 
 include_directories(${PROJECT_SOURCE_DIR}/devLib)
 include_directories(${PROJECT_SOURCE_DIR}/wiringPi)
-set(LIB_BIN_PATH "${CURRENT_PACKAGES_DIR}/bin")
+set(LIB_BIN_PATH "${CURRENT_INSTALLED_DIR}/bin")
 
 
 set(SRC_FILES
