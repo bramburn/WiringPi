@@ -22,8 +22,8 @@
 #################################################################################
 
 VERSION=$(shell cat ../VERSION)
-DESTDIR?=/usr
-PREFIX?=/local
+DESTDIR?=~/usr
+PREFIX?=~/local
 
 LDCONFIG?=ldconfig
 
@@ -36,7 +36,7 @@ DYNAMIC=libwiringPi.so.$(VERSION)
 
 #DEBUG	= -g -O0
 DEBUG	= -O2
-CC	= gcc
+CC	= /usr/bin/arm-linux-gnueabihf-gcc
 INCLUDE	= -I.
 DEFS	= -D_GNU_SOURCE
 CFLAGS	= $(DEBUG) $(DEFS) -Wformat=2 -Wall -Wextra -Winline $(INCLUDE) -pipe -fPIC
