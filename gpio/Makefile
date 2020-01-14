@@ -25,7 +25,7 @@
 
 DESTDIR?=/home/bramburn
 PREFIX?=/local
-LIBS=/home/bramburn/lib/
+LIBS?=/home/bramburn/local/lib
 ifneq ($V,1)
 Q ?= @
 endif
@@ -38,7 +38,7 @@ INCLUDE	= -I$(DESTDIR)$(PREFIX)/include
 CFLAGS	= $(DEBUG) -Wall -Wextra $(INCLUDE) -Winline -pipe
 
 LDFLAGS	= -L$(DESTDIR)$(PREFIX)/lib
-LIBS    = /home/bramburn/local/lib/libwiringPi.so /home/bramburn/local/lib/libwiringPiDev.so -lpthread -lrt -lm -lcrypt
+LIBS    = ${LIBS}/libwiringPi.so ${LIBS}libwiringPiDev.so -lpthread -lrt -lm -lcrypt
 
 # May not need to  alter anything below this line
 ###############################################################################
