@@ -23,8 +23,8 @@
 #    along with wiringPi.  If not, see <http://www.gnu.org/licenses/>.
 #################################################################################
 
-DESTDIR?=/usr
-PREFIX?=/local
+DESTDIR?=~/usr
+PREFIX?=~/local
 
 ifneq ($V,1)
 Q ?= @
@@ -32,7 +32,8 @@ endif
 
 #DEBUG	= -g -O0
 DEBUG	= -O2
-CC	= gcc
+CC	= /usr/bin/arm-linux-gnueabihf-gcc
+#CC = gcc
 INCLUDE	= -I$(DESTDIR)$(PREFIX)/include
 CFLAGS	= $(DEBUG) -Wall -Wextra $(INCLUDE) -Winline -pipe
 
