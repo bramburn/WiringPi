@@ -1,6 +1,7 @@
 
 include_directories(${PROJECT_SOURCE_DIR}/devLib)
 include_directories(${PROJECT_SOURCE_DIR}/wiringPi)
+# set the output path to bin
 set(LIB_BIN_PATH "bin")
 
 
@@ -15,4 +16,4 @@ set(LIBRARY_OUTPUT_PATH ${LIB_BIN_PATH})
 target_link_libraries(gpio libwiringPi libwiringPiDev -lpthread -lm -lcrypt -lrt)
 
 
-install(TARGETS gpio  DESTINATION ${LIB_BIN_PATH})
+install(TARGETS gpio DESTINATION ${LIB_BIN_PATH})
