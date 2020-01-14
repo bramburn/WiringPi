@@ -1,7 +1,7 @@
 cmake_minimum_required(VERSION 3.13)
 project(wiringPi)
-set(LIB_INSTALL_PATH "~/Documents/test/lib")
-set(LIB_INSTALL_HEADERS_PATH "~/Documents/test/include")
+set(LIB_INSTALL_PATH "lib")
+set(LIB_INSTALL_HEADERS_PATH "include")
 set(SRC_FILES ads1115.c
         bmp180.c
         drcNet.c
@@ -78,6 +78,7 @@ SET(HEADER_FILES
 
 
 add_library(libwiringPi SHARED ${SRC_FILES})
+target_link_libraries(libwiringPi -lm -lpthread -lrt -lcrypt)
 #set(LIBRARY_OUTPUT_PATH ${LIB_INSTALL_PATH})
 set_target_properties(libwiringPi PROPERTIES OUTPUT_NAME "wiringPi")
 

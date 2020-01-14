@@ -1,7 +1,7 @@
 cmake_minimum_required(VERSION 3.13)
 project(devLib)
-set(LIB_INSTALL_PATH "~/Documents/test/lib")
-set(LIB_INSTALL_HEADERS_PATH "~/Documents/test/include")
+set(LIB_INSTALL_PATH "lib")
+set(LIB_INSTALL_HEADERS_PATH "include")
 
 set(SRC_FILES
         ds1302.c

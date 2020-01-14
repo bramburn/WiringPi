@@ -1,8 +1,0 @@
-/usr/bin/cmake -DCMAKE_BUILD_TYPE=Release -G "CodeBlocks - Unix Makefiles" /mnt/c/Users/bramburn/Documents/GitHub/WiringPi
-CMake Error at gpio/CMakeLists.txt:15 (set_target_properties):
-  set_target_properties called with illegal arguments, maybe missing a
-  PROPERTIES specifier?
-
-
--- Configuring incomplete, errors occurred!
-See also "/mnt/c/Users/bramburn/Documents/GitHub/WiringPi/cmake-build-release-wsl/CMakeFiles/CMakeOutput.log".
