@@ -23,7 +23,7 @@
 
 VERSION=$(shell cat ../VERSION)
 DESTDIR?=~/usr
-PREFIX?=~/local
+PREFIX?=/local
 
 LDCONFIG?=ldconfig
 
