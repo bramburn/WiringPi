@@ -23,7 +23,7 @@
 #    along with wiringPi.  If not, see <http://www.gnu.org/licenses/>.
 #################################################################################
 
-DESTDIR?=~/usr
+DESTDIR?=/home/bramburn
 PREFIX?=/local
 
 ifneq ($V,1)

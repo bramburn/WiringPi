@@ -22,7 +22,7 @@
 #################################################################################
 
 VERSION=$(shell cat ../VERSION)
-DESTDIR?=~/usr
+DESTDIR?=/home/bramburn
 PREFIX?=/local
 
 LDCONFIG?=ldconfig
