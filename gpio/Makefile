@@ -23,21 +23,22 @@
 #    along with wiringPi.  If not, see <http://www.gnu.org/licenses/>.
 #################################################################################
 
-DESTDIR?=/usr
+DESTDIR?=/home/bramburn
 PREFIX?=/local
-
+LIBS?=/home/bramburn/local/lib
 ifneq ($V,1)
 Q ?= @
 endif
 
 #DEBUG	= -g -O0
 DEBUG	= -O2
-CC	= gcc
+CC	= /usr/bin/arm-linux-gnueabihf-gcc
+#CC = gcc
 INCLUDE	= -I$(DESTDIR)$(PREFIX)/include
 CFLAGS	= $(DEBUG) -Wall -Wextra $(INCLUDE) -Winline -pipe
 
 LDFLAGS	= -L$(DESTDIR)$(PREFIX)/lib
-LIBS    = -lwiringPi -lwiringPiDev -lpthread -lrt -lm -lcrypt
+LIBS    = ${LIBS}/libwiringPi.so ${LIBS}libwiringPiDev.so -lpthread -lrt -lm -lcrypt
 
 # May not need to  alter anything below this line
 ###############################################################################

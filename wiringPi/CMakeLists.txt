@@ -2,41 +2,42 @@ cmake_minimum_required(VERSION 3.13)
 project(wiringPi)
 set(LIB_INSTALL_PATH "lib")
 set(LIB_INSTALL_HEADERS_PATH "include")
-set(SRC_FILES ads1115.c
-        bmp180.c
-        drcNet.c
-        drcSerial.c
-        ds18b20.c
-        htu21d.c
-        max31855.c
-        max5322.c
+set(SRC_FILES wiringPi.c
+        wiringSerial.c
+        wiringShift.c
+        piHiPri.c
+        piThread.c
+        wiringPiSPI.c
+        wiringPiI2C.c
+        softPwm.c
+        softTone.c
         mcp23008.c
         mcp23016.c
         mcp23017.c
         mcp23s08.c
         mcp23s17.c
-        mcp3002.c
-        mcp3004.c
-        mcp3422.c
-        mcp4802.c
+        sr595.c
         pcf8574.c
         pcf8591.c
-        piHiPri.c
-        piThread.c
-        pseudoPins.c
-        rht03.c
+        mcp3002.c
+        mcp3004.c
+        mcp4802.c
+        mcp3422.c
+        max31855.c
+        max5322.c
+        ads1115.c
         sn3218.c
-        softPwm.c
-        softServo.c
-        softTone.c
-        sr595.c
-        wiringPi.c
-        wiringPiI2C.c
-        wiringPiSPI.c
-        wiringSerial.c
-        wiringShift.c
+        bmp180.c
+        htu21d.c
+        ds18b20.c
+        rht03.c
+        drcSerial.c
+        drcNet.c
+        pseudoPins.c
         wpiExtensions.c
         )
+
+#the headers are ok to be transferred over to the include file.
 
 SET(HEADER_FILES
         ads1115.h
