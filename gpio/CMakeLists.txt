@@ -12,8 +12,8 @@ set(SRC_FILES
 
 add_executable(gpio ${SRC_FILES})
 
-set(LIBRARY_OUTPUT_PATH ${LIB_BIN_PATH})
+#set(LIBRARY_OUTPUT_PATH ${LIB_BIN_PATH})
 target_link_libraries(gpio libwiringPi libwiringPiDev -lpthread -lm -lcrypt -lrt)
 
 
-install(TARGETS gpio DESTINATION ${LIB_BIN_PATH})
+install(TARGETS gpio DESTINATION ${LIB_OUTPATH}${LIB_BIN_PATH})

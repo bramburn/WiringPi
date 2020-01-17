@@ -90,6 +90,6 @@ target_link_libraries(libwiringPi -lm -lpthread -lrt -lcrypt)
 set_target_properties(libwiringPi PROPERTIES OUTPUT_NAME "wiringPi")
 
 
-install(FILES ${HEADER_FILES} DESTINATION ${LIB_INSTALL_HEADERS_PATH})
-message(STATUS "installing the file at ${LIB_INSTALL_PATH}")
-install(TARGETS libwiringPi DESTINATION ${LIB_INSTALL_PATH})
+install(FILES ${HEADER_FILES} DESTINATION ${LIB_OUTPATH}${LIB_INSTALL_HEADERS_PATH})
+message(STATUS "Installing the file at ${LIB_OUTPATH}${LIB_INSTALL_PATH}")
+install(TARGETS libwiringPi DESTINATION ${LIB_OUTPATH}${LIB_INSTALL_PATH})
