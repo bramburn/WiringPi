@@ -1,4 +1,7 @@
 cmake_minimum_required(VERSION 3.13)
+message(STATUS "OUTPUT dir is ${CMAKE_BINARY_DIR}")
+
+
 project(wiringPi)
 set(LIB_INSTALL_PATH "lib")
 set(LIB_INSTALL_HEADERS_PATH "include")
@@ -79,10 +82,14 @@ SET(HEADER_FILES
 
 
 add_library(libwiringPi SHARED ${SRC_FILES})
+
+
+
 target_link_libraries(libwiringPi -lm -lpthread -lrt -lcrypt)
 #set(LIBRARY_OUTPUT_PATH ${LIB_INSTALL_PATH})
 set_target_properties(libwiringPi PROPERTIES OUTPUT_NAME "wiringPi")
 
 
 install(FILES ${HEADER_FILES} DESTINATION ${LIB_INSTALL_HEADERS_PATH})
+message(STATUS "installing the file at ${LIB_INSTALL_PATH}")
 install(TARGETS libwiringPi DESTINATION ${LIB_INSTALL_PATH})
