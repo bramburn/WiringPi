@@ -23,9 +23,9 @@
 #    along with wiringPi.  If not, see <http://www.gnu.org/licenses/>.
 #################################################################################
 
-DESTDIR?=/home/bramburn
+DESTDIR?=/usr
 PREFIX?=/local
-LIBS?=/home/bramburn/local/lib
+LIBS?=/usr/local/lib
 ifneq ($V,1)
 Q ?= @
 endif

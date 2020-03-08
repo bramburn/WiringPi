@@ -5,6 +5,8 @@ lib*.so.*
 debian-template/wiringPi
 debian-template/wiringpi-*.deb
 gpio/gpio
-cmake-*/
-.idea/
+/cmake-*/
+/wiringPi/cmake-*/
+/gpio/cmake-*/
+devLib.idea/
 out/

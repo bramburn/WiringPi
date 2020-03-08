@@ -1,4 +1,0 @@
-"C:\Program Files\JetBrains\CLion 2019.3.2\bin\cmake\win\bin\cmake.exe" -DCMAKE_BUILD_TYPE=Release --target install -G "CodeBlocks - NMake Makefiles" C:\Users\bramburn\Documents\GitHub\WiringPi\wiringPi
--- Configuring done
--- Generating done
--- Build files have been written to: C:/Users/bramburn/Documents/GitHub/WiringPi/wiringPi/cmake-build-release

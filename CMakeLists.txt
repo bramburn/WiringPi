@@ -20,7 +20,7 @@ add_subdirectory(devLib)
 add_subdirectory(wiringPi)
 add_subdirectory(gpio)
 
-message(STATUS "built using ${CMAKE_CXX_COMPILER}")
+message(STATUS "Built using ${CMAKE_CXX_COMPILER}")
 #set_target_properties( libwiringPi libwiringPiDev gpio
 #        PROPERTIES
 #        ARCHIVE_OUTPUT_DIRECTORY "${CMAKE_BINARY_DIR}/lib"

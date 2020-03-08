@@ -1,7 +1,0 @@
-/mnt/c/Users/bramburn/Documents/GitHub/WiringPi/wiringPi/cmake-build-release-wsl/CMakeFiles/install/strip.dir
-/mnt/c/Users/bramburn/Documents/GitHub/WiringPi/wiringPi/cmake-build-release-wsl/CMakeFiles/edit_cache.dir
-/mnt/c/Users/bramburn/Documents/GitHub/WiringPi/wiringPi/cmake-build-release-wsl/CMakeFiles/libwiringPi.dir
-/mnt/c/Users/bramburn/Documents/GitHub/WiringPi/wiringPi/cmake-build-release-wsl/CMakeFiles/rebuild_cache.dir
-/mnt/c/Users/bramburn/Documents/GitHub/WiringPi/wiringPi/cmake-build-release-wsl/CMakeFiles/list_install_components.dir
-/mnt/c/Users/bramburn/Documents/GitHub/WiringPi/wiringPi/cmake-build-release-wsl/CMakeFiles/install/local.dir
-/mnt/c/Users/bramburn/Documents/GitHub/WiringPi/wiringPi/cmake-build-release-wsl/CMakeFiles/install.dir
