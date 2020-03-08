@@ -10,3 +10,4 @@ gpio/gpio
 /gpio/cmake-*/
 devLib.idea/
 out/
+.idea/
