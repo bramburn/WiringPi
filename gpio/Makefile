@@ -35,7 +35,7 @@ DEBUG	= -O2
 CC	= /usr/bin/arm-linux-gnueabihf-gcc
 #CC = gcc
 INCLUDE	= -I$(DESTDIR)$(PREFIX)/include
-CFLAGS	= $(DEBUG) -Wall -Wextra $(INCLUDE) -Winline -pipe
+CFLAGS	= $(DEBUG) -Wall -Wextra $(INCLUDE) -Winline -pipe $(EXTRA_CFLAGS)
 
 LDFLAGS	= -L$(DESTDIR)$(PREFIX)/lib
 LIBS    = ${LIBS}/libwiringPi.so ${LIBS}libwiringPiDev.so -lpthread -lrt -lm -lcrypt
@@ -81,13 +81,19 @@ endif
 	$Q mkdir -p		$(DESTDIR)$(PREFIX)/share/man/man1
 	$Q cp gpio.1		$(DESTDIR)$(PREFIX)/share/man/man1
 
+.PHONY: check-deb-destdir
+check-deb-destdir:
+ifndef DEB_DESTDIR
+	$(error DEB_DESTDIR is undefined)
+endif
+
 .PHONY:	install-deb
-install-deb:	gpio
+install-deb:	gpio check-deb-destdir
 	$Q echo "[Install: deb]"
-	$Q install -m 0755 -d							~/wiringPi/debian-template/wiringPi/usr/bin
-	$Q install -m 0755 gpio							~/wiringPi/debian-template/wiringPi/usr/bin
-	$Q install -m 0755 -d							~/wiringPi/debian-template/wiringPi/usr/share/man/man1
-	$Q install -m 0644 gpio.1						~/wiringPi/debian-template/wiringPi/usr/share/man/man1
+	$Q install -m 0755 -d							$(DEB_DESTDIR)/usr/bin
+	$Q install -m 0755 gpio							$(DEB_DESTDIR)/usr/bin
+	$Q install -m 0755 -d							$(DEB_DESTDIR)/usr/share/man/man1
+	$Q install -m 0644 gpio.1						$(DEB_DESTDIR)/usr/share/man/man1
 
 .PHONY:	uninstall
 uninstall:
